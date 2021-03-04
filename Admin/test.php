@@ -29,10 +29,17 @@
 
                 <div class="page-wrapper">
                     <div class="container-fluid main-test">
-                        <div class="row">
-                            <div class="col-md-12">
+                        <div class="row"> 
+                            <div class="col-md-12 d-flex" style="justify-content: space-between; align-items: center;">
                                 <div class="faculty">
                                     <h2>Exam</h2>
+                                </div>
+                                <div class="user-function-icon">
+                                    <ul>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fas fa-edit"></i></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Print"><i class="fas fa-print"></i></a></li>
+                                       
+                                    </ul>
                                 </div>
                             </div>
                             <div class="col-md-3 ">
@@ -76,37 +83,37 @@
                                                         <th scope="row">1</th>
                                                         <td>01/01/2020</td>
                                                         <td>30 Min</td>
-                                                        <td><a href="#" class="btn">Enter the Test</a></td>
+                                                        <td><a href="#" class="btn">Attend the Test</a></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">2</th>
                                                         <td>01/01/2020</td>
                                                         <td>30 Min</td>
-                                                        <td><a href="#" class="btn">Enter the Test</a></td>
+                                                        <td><a href="#" class="btn">Attend the Test</a></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">3</th>
                                                         <td>01/01/2020</td>
                                                         <td>30 Min</td>
-                                                        <td><a href="#" class="btn">Enter the Test</a></td>
+                                                        <td><a href="#" class="btn">Attend the Test</a></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">4</th>
                                                         <td>01/01/2020</td>
                                                         <td>30 Min</td>
-                                                        <td><a href="#" class="btn">Enter the Test</a></td>
+                                                        <td><a href="#" class="btn">Attend the Test</a></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">5</th>
                                                         <td>01/01/2020</td>
                                                         <td>30 Min</td>
-                                                        <td><a href="#" class="btn">Enter the Test</a></td>
+                                                        <td><a href="#" class="btn">Attend the Test</a></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">6</th>
                                                         <td>01/01/2020</td>
                                                         <td>30 Min</td>
-                                                        <td><a href="#" class="btn">Enter the Test</a></td>
+                                                        <td><a href="#" class="btn">Attend the Test</a></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -129,37 +136,37 @@
                                                             <th scope="row">1</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">2</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">3</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">4</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">5</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">6</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -183,37 +190,37 @@
                                                             <th scope="row">1</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">2</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">3</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">4</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">5</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">6</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -237,37 +244,37 @@
                                                             <th scope="row">1</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">2</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">3</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">4</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">5</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">6</th>
                                                             <td>01/01/2020</td>
                                                             <td>30 Min</td>
-                                                            <td><a href="#" class="btn">Enter the Test</a></td>
+                                                            <td><a href="#" class="btn">Attend the Test</a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>

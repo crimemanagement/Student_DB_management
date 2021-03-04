@@ -1,7 +1,9 @@
+
+
 <div class="topbar">
     <ul class="align-self-center">
         <li>
-            <a href="#" onclick="closeNav();" id="closeNav" class="close"><i class="fas fa-angle-double-left"></i></a>
+            <a href="#" onclick="closeNav();" id="closeNav" class="close"><i class="fas fa-bars"></i></a>
         </li>
         <li>
             <a class="profile-pic" href="#">

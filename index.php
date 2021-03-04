@@ -5,35 +5,20 @@
     <title>Index</title>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css"> 
     <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-    <!-- 	
-<nav class="nav-links">
-	<input type="checkbox" id="check">
-	<label for="check" class="checkbtn">
-		<i class="fas fa-bars"></i>
-	</label>
-	<label class="logo">DesignX</label>
-	<ul>
-		<li><a clsas="active" href="#" style="border: 1px solid white; ">Home</a></li>
-		<li><a href="about.html">About us</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="contact.html">Contact us</a></li>
-	</ul>
-</nav> -->
-    <div class="header sticky-top">
+ 
+     <div class="header sticky-top">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="logo" href="index.html">
+            <a class="logo" href="index.php">
                 <h2>Design X</h2>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"
@@ -58,15 +43,20 @@
                 </ul>
             </div>
         </nav>
-    </div>
-
+    </div> 
+    
     <div class="headingbar">
         <div class="container">
-            <label>ENVISIONED FOR THE DIGITAL SCHOOL REVOLUTION!!</label>
-            <h2>Indira College Of Engineering & Management !! VERIFIER 2.0</h2>
+            <div class="row">
+                <div class="col-md-12">
+            <h3>ENVISIONED FOR THE DIGITAL SCHOOL REVOLUTION!!</h3>
+            <h2>Indira College Of Engineering & Management !! <span class="type"></span></h2>
             <p>The demo version gives you clear insights regarding different modules of the software that has incredible
                 reach to the enormous task of the educational sector. In fact a real time access to software is an open
                 opportunity to understand the creamy layer of features and get convinced with a closer access.</p>
+        </div> 
+            </div>
+            
         </div>
     </div>
 
@@ -125,12 +115,21 @@
     </div> -->
 
 
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/magnific-popup.min.css"></script>
+    
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/typed.min.js"></script>
     <script src="js/fontawesome/js/fontawesome.min.js"></script>
+
+    <script>
+        var typed = new Typed('.type', {
+            strings: ["VERIFIER 2.0"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 20
+        });
+    </script>
 </body>
 
 </html>
