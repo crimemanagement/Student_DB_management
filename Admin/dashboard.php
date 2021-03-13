@@ -145,22 +145,7 @@
     </script> -->
 
 
-    <script>
-    function openNav() {
-        $('.admin-left').attr('style', 'width:0px;');
-        $('.main-right').attr('style', 'margin-left:0px;, z-index:999;');
-        $('#openNav').attr('style', 'display:none;');
-        $('#closeNav').removeClass('close');
-    }
 
-    function closeNav() {
-        $('.admin-left').attr('style', 'width:260px;');
-        $('.main-right').attr('style', 'margin-left:260px;, z-index:999;');
-        $('#closeNav').addClass('close');
-        $('#openNav').attr('style', 'display:block;');
-
-    }
-    </script>
 </body>
 
 </html>

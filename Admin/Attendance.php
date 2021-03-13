@@ -30,12 +30,12 @@
                 <div class="page-wrapper">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-5">
+                            <div class="col-lg-5 col-md-12 mb-3">
                                 <div class="student-attandance">
                                     <canvas id="myChart"></canvas>
                                 </div>
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-lg-7 col-md-12">
                                 <div class="subject">
                                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                         <li class="nav-item" role="presentation">
@@ -175,12 +175,12 @@
                 label: 'Attendance',
                 data: [66, 34],
                 backgroundColor: [
-                    '#ff8f16',
+                    '#ff9c30',
                     '#105dff'
                 ],
                 borderColor: [
-                    'rgba(0, 0, 0, 0.23)',
-                    'rgba(0, 0, 0, 0.23)'
+                    '#FFF',
+                    '#fff'
                 ],
 
                 borderWidth: 1

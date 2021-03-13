@@ -34,7 +34,7 @@
     </div>
 </div>
 
-<script>
+ <script>
     function openNav() {
         $('.admin-left').attr('style', 'width:0px;');
         $('.main-right').attr('style', 'margin-left:0px;, z-index:999;');
