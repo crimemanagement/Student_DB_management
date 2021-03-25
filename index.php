@@ -12,14 +12,15 @@
     <link rel="stylesheet" type="text/css" href="css/all.css"> 
     <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/indira.png" type="image/gif" sizes="18x18">
 </head>
 
 <body>
  
      <div class="header sticky-top">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light">
             <a class="logo" href="index.php">
-                <h2>Design X</h2>
+                <img src="Images/logo.png">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

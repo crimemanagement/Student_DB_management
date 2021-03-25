@@ -94,6 +94,11 @@ if(isset($_POST['Submit']))
         {
          $_SESSION["uname"]=$_POST['DBUSER'];
          echo "<script>window.location='dashboard.php';</script>";
+        }   
+        IF ($usertype == 2) 
+        {
+         $_SESSION["uname"]=$_POST['DBUSER'];
+         echo "<script>window.location='../Faculty-Admin/dashboard.php';</script>";
         }       
 }
 

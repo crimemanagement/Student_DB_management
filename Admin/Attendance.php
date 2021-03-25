@@ -175,8 +175,8 @@
                 label: 'Attendance',
                 data: [66, 34],
                 backgroundColor: [
-                    '#ff9c30',
-                    '#105dff'
+                    '#ff8f16',
+                    '#023b5e'
                 ],
                 borderColor: [
                     '#FFF',

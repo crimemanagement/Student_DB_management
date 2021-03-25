@@ -8,7 +8,9 @@
         <li>
             <a class="profile-pic" href="#">
                 <img src="../Images/user.png" alt="user-img" width="36" class="img-circle mr-2"><span
-                    class="text-white font-medium">Hi,&nbsp;<?php  echo $_SESSION["Name"]; ?></span></a>
+                  class="text-white font-medium">Hi,&nbsp;<?php  echo $_SESSION["Name"]; ?></span></a>
         </li>
     </ul>
 </div>
+
+

@@ -16,8 +16,8 @@
 
 <div class="admin-left">
     <div class="heading">
-        <!-- <img src="../Images/logo.png"> -->
-        <h2>Design X</h2>
+        <img src="../Images/Icem-footer-logo.png" class="img-fluid">
+        <!-- <h2>Design X</h2> -->
         <!-- <h2><?php  echo $_SESSION["Name"]; ?></h2> -->
         <a href="#" onclick="openNav();" id="openNav"><i class="fas fa-angle-double-left"></i></a>
     </div>
@@ -49,3 +49,7 @@
         $('#openNav').attr('style', 'display:block;');
     }
     </script>
+
+
+
+

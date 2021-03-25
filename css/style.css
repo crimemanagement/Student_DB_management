@@ -68,13 +68,11 @@ nav ul li{
 #check{
     display: none;
 } */
-        
-        .navbar .logo {
-            text-decoration: none;
-            color: #2b1770;
+        .header nav{
+            background: #023b5e !important;
         }
-        
-        .logo h2 {
+        .navbar .logo img{
+            height: 70px;
             padding-left: 10px;
         }
         
@@ -85,7 +83,7 @@ nav ul li{
         .navbar-nav .nav-item .nav-link {
             text-decoration: none;
             font-weight: 600;
-            color: #2b1770 !important;
+            color: #fff !important;
             font-size: 16px;
             transition: all 0.5s;
             padding: 10px;
@@ -93,9 +91,9 @@ nav ul li{
         }
         
         .navbar-nav .nav-item .nav-link:hover {
-            background: #2b1770;
+            background: #fff;
             border-radius: 4px;
-            color: #fff !important;
+            color: #023b5e !important;
             transition: all 0.5s;
         }
         
@@ -194,7 +192,7 @@ nav ul li{
         .desc_wrapper span:hover {
             transition: 0.5s;
             color: #fff;
-            background: #2b1770;
+            background: #023b5e;
         }
         
         .pignose-calendar {
@@ -492,11 +490,14 @@ nav ul li{
         .loginBg form button {
             padding: 5px 20px;
             border-radius: 1px 9px 1px 9px;
-            background: #2b1770;
+            background: #023b5e;
             color: #fff;
             font-size: 16px;
             font-weight: 600;
             padding: 10px 20px;
+        }
+        .loginBg form .btn-primary.focus, .loginBg form .btn-primary:focus{
+            box-shadow:none !important;
         }
         
         .signup_link {
@@ -517,7 +518,7 @@ nav ul li{
         /* ADMIN PANEL */
         
         .admin-left {
-            background: #2b1770;
+            background: #023b5e;
             box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
             height: 100%;
             position: fixed;
@@ -527,14 +528,15 @@ nav ul li{
         
         .main-right {
             margin-left: 260px;
+            
             width: 100%;
             z-index: 99999999 !important;
             transition: 00.3s ease-in;
         }
         
         .topbar {
-            background: #2b1770;
-            height: 62px;
+            background: #023b5e;
+            height: 60px;
         }
         
         .topbar ul li a {
@@ -547,16 +549,14 @@ nav ul li{
         
         .heading {
             background: #fff;
-            display: flex;
-            justify-content: space-between;
-            padding: 15px 10px;
-            align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
         }
         
-        .heading h2 {
-            font-size: 20px;
-            color: #2b1770;
-            font-weight: 600;
+        .heading img {
+            height:50px;
         }
         
         .heading a {
@@ -895,7 +895,7 @@ nav ul li{
         
         .user-function-icon ul li a:hover {
             color: #e9f4fb;
-            background-color: #2b1770;
+            background-color: #023b5e;
             transition: 0.3s ease-in;
         }
         /* ATTANDANCE PAGE */
@@ -922,7 +922,7 @@ nav ul li{
         .nav-pills .nav-link.active,
         .nav-pills .show>.nav-link {
             color: #fff !important;
-            background-color: #2b1770;
+            background-color: #023b5e;
         }
         
         .test-area .nav .nav-link {
@@ -944,7 +944,7 @@ nav ul li{
         }
         
         .exam-section .table tbody tr td .btn {
-            background: #2b1770;
+            background: #023b5e;
             color: #fff;
             text-transform: uppercase;
         }
