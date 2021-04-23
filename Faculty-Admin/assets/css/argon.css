@@ -20450,7 +20450,7 @@ textarea[resize='horizontal']
 }
 .icon-xs + .icon-text
 {
-    width: calc(100% - $icon-size-xs - 1);
+    width: calc(100% - icon-size-xs - 1);
 }
 
 .icon-shape
@@ -22891,7 +22891,7 @@ textarea[resize='horizontal']
 .nav-pills .show > .nav-link
 {
     color: #fff;
-    background-color: #5e72e4;
+    /* background-color: #5e72e4; */
 }
 
 @media (max-width: 575.98px)

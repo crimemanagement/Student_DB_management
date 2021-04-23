@@ -1,106 +1,139 @@
-.navbar-brand {
-    background-color: #023b5e;
-    padding: 10px;
-}
-
-.navbar-brand img {
-    height: 60px;
-}
-
-.sidenav-header {
-    background-color: #023b5e;
-    padding: 5px 0;
-}
-
-.navbar-brand {
-    background-color: #023b5e;
-    padding: 10px;
-}
-
-.navbar-brand img {
-    height: 60px;
-}
-
-.page-wrapper {
-    padding: 25px;
-    background: #edf1f5;
-}
-
-.attandence-section {
-    padding: 25px;
+.white-box {
     background: #fff;
-}
-
-.faculty-search {
+    padding: 25px;
     margin-bottom: 30px;
 }
-
-.faculty-details {
-    overflow-y: scroll;
-    height: 500px;
-}
-
-.faculty-details table tbody tr td img {
-    height: 30px;
-    border-radius: 50%;
-}
-
-.faculty-search .form-control,
-.faculty-search .input-group-text,
-.faculty-search .input-group-append {
-    background: #edf1f5;
-}
-
-.form-control:focus {
-    border-color: #edf1f5;
-}
-
-.navbar-brand {
-    background-color: #023b5e;
-    padding: 10px;
-}
-
-.navbar-brand img {
-    height: 60px;
-}
-
-.page-wrapper {
-    padding: 25px;
-    background: #edf1f5;
-}
-
-.attandence-section {
-    padding: 25px;
-    background: #fff;
-}
-
-.faculty-search {
-    margin-bottom: 30px;
-}
-
-.faculty-details {
-    overflow-y: scroll;
-    height: 500px;
-}
-
-.faculty-details table tbody tr td img {
-    height: 30px;
-    border-radius: 50%;
-}
-
-.faculty-search .form-control,
-.faculty-search .input-group-text,
-.faculty-search .input-group-append {
-    background: #edf1f5;
-}
-
-.form-control:focus {
-    border-color: #edf1f5;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #023b5e !important;
+.white-box .progress .bg-primary {
+    background-color: #ff8f16 !important;
+} 
+.head-list {
+    font-size: 16px;
     font-weight: 600;
 }
+.Professors-list {
+    background: #fff;
+    padding: 20px;
+}
+.Professors-list .media {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.media img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.media .media-body h5 {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.media .media-body p {
+    color: #7b7b7b;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.Professors-list .media:last-child {
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+.navbar-brand {
+            background-color: #023b5e;
+            padding: 10px;
+        }
+        
+        .navbar-brand img{
+            height: 60px;
+        }
+
+                .navbar-brand {
+            background-color: #023b5e;
+            padding: 10px;
+        }
+        
+         
+        .page-wrapper{
+            padding: 25px;
+            background: #edf1f5;
+        }
+        .attandence-section{
+            padding: 25px;
+            background: #fff;
+        }
+        
+    .faculty-details{
+        overflow-y: scroll;
+    height: 500px;
+    }
+.faculty-details table tbody tr td img{
+    height: 30px;
+    border-radius: 50%;
+    }
+    .faculty-search .form-control, .faculty-search .input-group-text, .faculty-search .input-group-append{
+        background: #edf1f5;
+    }
+    .form-control:focus{
+        border-color:#edf1f5 ;
+    }
+    .navbar-brand {
+            background-color: #023b5e;
+            padding: 10px;
+        }
+        
+        .navbar-brand img{
+            height: 60px;
+        }
+        .page-wrapper{
+            padding: 25px;
+            background: #edf1f5;
+        }
+        .attandence-section{
+            padding: 25px;
+            background: #fff;
+        }
+        .faculty-search {
+    margin-bottom: 30px;
+    }
+    .faculty-details{
+        overflow-y: scroll;
+    height: 500px;
+    }
+.faculty-details table tbody tr td img{
+    height: 30px;
+    border-radius: 50%;
+    }
+    .faculty-search .form-control, .faculty-search .input-group-text, .faculty-search .input-group-append{
+        background: #edf1f5;
+    }
+    .form-control:focus{
+        border-color:#edf1f5 ;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+        color: #fff !important;
+    background-color: #023b5e !important;
+    }
+    .nav-pills .nav-link{
+        color: #023b5e !important;
+    }
+    .last-send .btn.btn-primary{
+        border-color: #023b5e !important;
+    background-color: #023b5e !important;
+    }
+    .sidenav-header{
+        background: #023b5e;
+        display: flex;
+    }
+    
+    input:checked + label:nth-child(2){
+        color: #24b900;
+    /* background: #111; */
+    font-weight: 400;
+      }
+      input[type="radio"]:checked{
+          background-color: #24b900 !important;
+      }
+      input:checked + label{
+        color: #ff0000;
+    /* background: #111; */
+    font-weight: 400;
+      }

@@ -1,3 +1,4 @@
+ 
 <?php include('header.php'); ?>
         <div class="page-wrapper">
             <div class="attandence-section">
@@ -12,9 +13,10 @@
                               </div>
                         </div>
                         <div class="col-md-10">
+                            <div class="student-attandence-main">
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 p-0">
                                         <div class="faculty-search">
                                             <div class="input-group md-form form-sm form-2 pl-0">
                                                 <input class="form-control search-input" type="text" placeholder="Search" data-table="student-list">
@@ -25,7 +27,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 p-0">
                                         <div class="faculty-details">
                                             <table class="table table-bordered student-list">
                                                 <thead class="thead-light"> 
@@ -629,8 +631,13 @@
                               </div>
                               
                         </div>
+                            </div>
+                            
                         <div class="col-md-12 text-right mt-2">
+                            <div class="last-send">
                             <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -638,10 +645,8 @@
         </div>
         
     </div>
-
-
  
-<script>
+ <script>
         (function(document) {
             'use strict';
 
@@ -679,19 +684,16 @@
             });
 
         })(document);
-    </script>
-    </script>
-    <!-- Argon Scripts -->
-    <!-- Core -->
+    </script> 
+
+
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/js-cookie/js.cookie.js"></script>
     <script src="assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
     <script src="assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
-    <!-- Optional JS -->
-    <script src="assets/vendor/chart.js/dist/Chart.min.js"></script>
-    <script src="assets/vendor/chart.js/dist/Chart.extension.js"></script>
-    <!-- Argon JS -->
+   
+
     <script src="assets/js/argon.js?v=1.2.0"></script>
 </body>
 

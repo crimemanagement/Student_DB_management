@@ -34,13 +34,13 @@
                                 <div class="faculty">
                                     <h2>Exam</h2>
                                 </div>
-                                <div class="user-function-icon">
+                                <!-- <div class="user-function-icon">
                                     <ul>
                                         <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fas fa-edit"></i></a></li>
                                         <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Print"><i class="fas fa-print"></i></a></li>
                                        
                                     </ul>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-md-3 ">
                                 <div class="test-area">

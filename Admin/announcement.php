@@ -31,7 +31,7 @@
                     <div class="container-fluid main-profile">
                         <div class="row">
                         <div class="col-md-12">
-                                <div class="user-function-icon">
+                                <div class="user-function-icon d-none">
                                     <ul>
                                         <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fas fa-edit"></i></a></li>
                                         <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Print"><i class="fas fa-print"></i></a></li>

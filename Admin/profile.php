@@ -12,15 +12,15 @@
                     <div class="container-fluid">
                         <div class="main-profile">
                         <div class="set">
-                        <h2>About me</h2>
-                            <div class="user-function-icon">
-                                    <ul>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fas fa-edit"></i></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Print"><i class="fas fa-print"></i></a></li>
-                                        <li><a href="#"data-toggle="tooltip" data-placement="bottom" title="Download"><i class="fas fa-download"></i></a></li>
-                                    </ul>
+                            <h2>About me</h2>
+                                <div class="user-function-icon d-none">
+                                        <ul>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fas fa-edit"></i></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Print"><i class="fas fa-print"></i></a></li>
+                                            <li><a href="#"data-toggle="tooltip" data-placement="bottom" title="Download"><i class="fas fa-download"></i></a></li>
+                                        </ul>
                                 </div>
-                            </div>     
+                        </div>     
                         <div class="row">
                             <div class="col-md-12 col-lg-4 mb-3">
                                 <div class="user-image">

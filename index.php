@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Index</title>
+    <title>ICEM CAMPUS</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -13,6 +13,61 @@
     <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
     <link rel="icon" href="Images/indira.png" type="image/gif" sizes="18x18">
+
+
+    <style>
+        .icon-bar {
+  position: fixed;
+  top: 50%; 
+  right:0;
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover i{
+    transition: all 0.3s ease;
+    transform:rotate(360deg);
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.envelope {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+        
+    </style>
 </head>
 
 <body>
@@ -114,6 +169,14 @@
 
         </div>
     </div> -->
+
+    <div class="icon-bar">
+  <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
+  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a> 
+  <a href="#" class="envelope"><i class="far fa-envelope"></i></a>
+  <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> 
+</div>
 
 
     

@@ -19,29 +19,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>ICEM-FACULTY</title>
+    <title>ICEM | FACULTY</title> 
     <link rel="stylesheet" type="text/css" href="assets/css/style-hl.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/style.css"> -->
     <!-- Favicon -->
     <link rel="icon" href="assets/img/brand/favicon.png" type="image/png">
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <!-- Fonts --> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
     <!-- Icons -->
     <link rel="stylesheet" href="assets/vendor/nucleo/css/nucleo.css" type="text/css">
     <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
     <!-- Page plugins -->
     <!-- Argon CSS -->
     <link rel="stylesheet" href="assets/css/argon.css?v=1.2.0" type="text/css">
+ 
 
-    <!-- <style>
-        .navbar-brand {
-            background-color: #023b5e;
-            padding: 10px;
-        }
-        
-        .navbar-brand img{
-            height: 60px;
-        }
-    </style> -->
+ <style>
+html{
+    scroll-behavior: smooth;
+            font-family: 'Maven Pro', sans-serif;
+}  
+</style>
 </head>
 
 <body>
@@ -259,8 +259,10 @@
                                     <span class="avatar avatar-sm rounded-circle">
                     <img alt="Image placeholder" src="assets/img/theme/team-4.jpg">
                   </span>
-                                    <div class="media-body  ml-2  d-none d-lg-block">
-                                        <span class="mb-0 text-sm  font-weight-bold">Dr. Priya Pise</span>
+                                    <div class="media-body ml-2 d-lg-block">
+                                        <span class="mb-0 text-sm  font-weight-bold"> 
+                                        Hi,&nbsp;<?php  echo $_SESSION["Name"]; ?>
+                                        </span>
                                     </div>
                                 </div>
                             </a>
@@ -270,7 +272,7 @@
                                 </div>
                                 
                                 <div class="dropdown-divider"></div>
-                                <a href="#!" class="dropdown-item">
+                                <a href="logout.php" class="dropdown-item">
                                     <i class="ni ni-user-run"></i>
                                     <span>Logout</span>
                                 </a>
@@ -280,3 +282,9 @@
                 </div>
             </div>
         </nav> 
+
+
+
+
+
+

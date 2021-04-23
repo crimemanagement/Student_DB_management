@@ -1,5 +1,7 @@
 @media (min-width: 320px) and (max-width: 767.98px) {
-
+.faculty-search{
+    margin: 15px 0;
+}
 
 }
 
@@ -11,6 +13,9 @@
     }
     .headingbar h2 {
         font-size: 30px;
+    }
+    .last-send{
+        text-align: center;
     }
     
 }
