@@ -11,7 +11,25 @@
           //echo "<script>window.location='../index.php';</script>";
        }
     ?>
-
+<style>
+    .side-footer{
+        background: #2c2c2c;
+        position: absolute;
+        bottom: 0;
+    }
+    .side-footer p{
+        color: #fff;
+        font-weight: 400;
+        padding: 5px;
+        margin: 0;
+        font-size:12px;
+    }
+    .side-footer p a{
+        text-decoration:none;
+        text-transform: uppercase;
+        color:#78b833;
+    }
+</style>
 
 
 <div class="admin-left">
@@ -31,6 +49,9 @@
             <li><a href="test.php"><i class="fas fa-address-book mr-2" style="color: #ff8f16"></i>Exam</a></li>
             <li><a href="logout.php"><i class="fas fa-power-off mr-2" style="color: #ff8f16"></i>Logout</a></li>
         </ul>
+        <div class="side-footer">
+            <p>Copyright © 2019-21 <a href="#">Crimemanagement</a> All Rights Reserved.</p>
+        </div>
     </div>
 </div>
 

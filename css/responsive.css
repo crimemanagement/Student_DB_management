@@ -1,9 +1,26 @@
 @media (min-width: 320px) and (max-width: 767.98px) {
-
+    #footer-1{
+        display: none;
+    }
+    #formvalidationLogin h3{
+        font-size: 17px !important;
+    }
+    #formvalidationLogin h3::after{
+        top: 26px !important;
+        height: 3px !important;
+    }
+    #formvalidationLogin h3::before{
+        top:26px !important;
+        height: 3px !important;
+    }
 
 }
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    .form-1{
+        display: block !important;
+    }
+}
 
 @media (min-width: 320px) and (max-width: 575px) {
     .headingbar h3 {
@@ -33,4 +50,8 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 768px) and (max-width:1800px) {
+    .footer-mai{
+        display: none;
+    }
+}

@@ -19,7 +19,13 @@
 
     <style>
 
-
+.footer-main{
+    background: #111;
+    color: #d2d2d2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
 
     </style>
 </head>
@@ -64,7 +70,12 @@
                 <button name="Submit" class="btn btn-primary">Submit</button> 
             </form>
         </div>
+        <div class="footer-main">
+        <p>Copyright © 2019-21 <a href="#">Crimemanagement</a> All Rights Reserved.</p>
     </div>
+    </div>
+
+    
 
     <?php 
 

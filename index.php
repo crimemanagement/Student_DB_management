@@ -65,6 +65,37 @@
   background: #bb0000;
   color: white;
 }
+.navbar-nav .nav-item .nav-link.active{
+    background: #ff8f16;
+    
+}
+.footer-main{
+    position: absolute;
+    bottom: 0;
+    background: #191919;
+    color: #bababa;
+    width:100%;
+    padding: 8px 0;
+    
+}
+.footer-mai {
+    background: #191919;
+    color: #bababa;
+    width:100%;
+    padding: 8px 0;
+}
+.footer-main p , .footer-mai p{
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.footer-main p a, .footer-mai p a{
+    color:#78b833;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
 
         
     </style>
@@ -87,7 +118,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="registration.html">Registration</a>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
@@ -95,7 +129,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
@@ -155,6 +189,7 @@
             </div>
         </div>
     </div>
+    
 
     <!-- <div class="section">
 
@@ -171,12 +206,22 @@
     </div> -->
 
     <div class="icon-bar">
-  <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
-  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
-  <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a> 
-  <a href="#" class="envelope"><i class="far fa-envelope"></i></a>
-  <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> 
-</div>
+        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a> 
+        <a href="#" class="envelope"><i class="far fa-envelope"></i></a>
+        <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+
+    </div>
+ 
+                <div class="footer-main" id="footer-1">
+                    <p>Copyright © 2019-21 <a href="#">Crimemanagement</a> All Rights Reserved.</p>
+                </div>
+                <div class="footer-mai" id="footer-2">
+                    <p>Copyright © 2019-21 <a href="#">Crimemanagement</a> All Rights Reserved.</p>
+                </div>
+           
+    
 
 
     

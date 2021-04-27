@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ICEM REGISTRATION</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css"> 
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/indira.png" type="image/gif" sizes="18x18">
+
+
+    <style>
+        .loginbg{
+        background: linear-gradient(
+132deg
+, rgba(120,184,51,1) 27%, rgba(13,173,110,1), rgba(120,184,51,1) 100%);
+    /* background: #e0e0e0; */
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.login-left {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 14px 24px 0 rgb(132 132 132 / 20%);
+}
+.login-bg .login {
+    display: flex;
+    justify-content: center;
+}
+.login-form {
+    /* width: 450px; */
+    padding: 20px;
+    /* background-color: #fff; */
+    z-index: 9999;
+    overflow-y: scroll;
+    /* display: grid; */
+    margin: 14px 0px;
+    position: relative;
+    height: 450px;
+}
+        .login-form .form, .login-form .form-demo {
+            padding: 45px 20px 20px;
+            display: -ms-grid;
+            display: grid;
+            box-shadow: 3px 3px 10px 3px #e2e2e2;
+        }
+        .form, .form-demo {
+            -webkit-backface-visibility: hidden;
+            /* backface-visibility: hidden; */
+            -webkit-transform: rotateY(
+        0deg
+        );
+            /* transform: rotateY(
+        0deg
+        ); */
+            -webkit-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+        .login-form .form .title, .login-form .form-demo .title {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #727271;
+            color: #fff;
+            padding: 15px;
+            width: 213px;
+            text-align: center;
+        }
+        .login-form .form .title h2, .login-form .form-demo .title h2 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .login-form .form lable {
+            color: #565656;
+            font-weight: bold;
+        }
+        .form .form-control, .form-demo .form-control {
+            height: 45px;
+            line-height: 45px;
+            margin: 12px 0 16px 0;
+            color: #000;
+            font-size: 15px;
+            letter-spacing: 1px;
+            background: #faf9f9;
+            border: 1px solid #ccc;
+            border-bottom: 5px solid #78b833;
+            border-width: 1px 1px 2px;
+            border-radius: 1px 9px 1px 9px;
+            line-height: 45px;
+        }
+        .login-form .form .btn, .login-form .form-demo .btn {
+            width: 100%;
+            text-transform: uppercase;
+            background: #77b735;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 0.7em 0;
+            margin: 15px 0;
+            border-radius: 1px 9px 1px 9px;
+        }
+        .logo img{
+            height: 100px;
+        }
+        .login{
+            text-align: center;
+        }
+        .login img{
+            height: 340px;
+        }
+        #formvalidationLogin h3{
+            font-size: 26px;
+            font-weight: 600;
+            color: #008c52;
+            margin-bottom: 16px;
+            position: relative;
+        }
+        #formvalidationLogin h3::before{
+            position: absolute;
+            content: '';
+            background: #008c52;
+            height: 4px;
+            width: 49px;
+            left: 0;
+            top: 32px;
+        }
+        #formvalidationLogin h3::after{
+            position: absolute;
+            content: '';
+            background: #f58736;
+            height: 4px;
+            width: 14px;
+            left: 40px;
+            top: 32px;
+        }
+        .form-1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-2{
+            display: block;
+            justify-content: space-between;
+        }
+
+        @media (max-width: 576px){
+            .form .form-control, .form-demo .form-control{
+                width: fit-content;
+                
+            }
+        }
+
+        @@media (max-width: 576px){
+            .form .form-control, .form-demo .form-control{
+                width: fit-content;
+                
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="loginbg">
+        <div class="container">
+            <div class="row login-left">
+                <div class="col-md-6 d-none d-lg-block p-0">
+                    <div class="logo text-center">
+                        <img src="Images/Icem-footer-logo.png" class="img-fluid" />
+                    </div>
+                    <div class="login">
+                        <img src="images/undraw_education_f8ru.png" alt="student" class="img-fluid"/>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="login-form">
+                        <div class="form">
+                            <div class="title">
+                                <h2>Registeration</h2>
+                            </div>
+                                <form id="formvalidationLogin" class="mb-0" novalidate="novalidate">
+                                    
+                                    <h3>PERSONAL DETAILS</h3>
+                                    <div class="form-1">
+                                        <div class="form-group">
+                                            <lable>First Name</lable>
+                                            <input type="text" class="form-control valid" placeholder="Your First Name" name="usernames" id="txtusername" aria-invalid="false">
+                                        </div>
+                                        <div class="form-group">
+                                            <lable>Last Name</lable>
+                                            <input type="text" class="form-control valid" placeholder="Your Last Name" name="usernames" id="txtusername" aria-invalid="false">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <lable>Father's Name</lable>
+                                        <input type="text" class="form-control valid" placeholder="Father's Name" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    <div class="form-group">
+                                        <lable>Father's Occupation</lable>
+                                        <input type="text" class="form-control valid" placeholder="Father's Occupation" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    <div class="form-group">
+                                        <lable>Mother's Name</lable>
+                                        <input type="text" class="form-control valid" placeholder="Mother's Name" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <lable>Mother's Occupation</lable>
+                                        <input type="text" class="form-control valid" placeholder="Mother's Occupation" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    <div class="form-group">
+                                        <lable>D.O.B</lable>
+                                        <input type="date" class="form-control valid" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    <div class="form-group">
+                                        <lable>Gender</lable>
+                                        <br>
+                                        <input type="radio" id="male" name="gender" value="male">
+                                        <label for="male">Male</label>
+
+                                        <input type="radio" id="female" name="gender" value="female">
+                                        <label for="female">Female</label><br>
+                                    </div>
+
+                                    <h3>COMMUNICATION DETAILS</h3>
+                                    
+                                    <div class="form-group">
+                                            <lable>Contact No</lable>
+                                            <input type="number" class="form-control valid" placeholder="Enter Contact Number" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    
+                                        
+                                            <lable>OTP VERIFY</lable>
+
+                                            <div class="form-group form-2">
+                                                <button type="submit">Get OTP</button>
+                                                <input type="number" class="form-control valid" placeholder="Enter OTP" name="otp">
+                                            </div>
+                                       
+                                     
+                                    
+                                    <div class="form-group">
+                                        <lable>Email</lable>
+                                        <input type="email" class="form-control valid" placeholder="Enter Your Email" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    <div class="form-group d-none">
+                                        <lable>Adress</lable>
+                                        <textarea name="Enter your Address" rows="4" cols="45"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <lable>StudentID</lable>
+                                        <input type="text" class="form-control valid" placeholder="Enter Your StudentID" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    <div class="form-group">
+                                        <lable>Course</lable>
+                                        <input type="text" class="form-control valid" placeholder="Enter Your Course" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    <div class="form-group">
+                                        <lable>Academic Batch</lable>
+                                        <input type="text" class="form-control valid" placeholder="Enter Your College Email" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+
+                                    <h3>CREATE YOUR LOG-IN DETAILS</h3>
+
+                                    <div class="form-group">
+                                        <lable>Email</lable>
+                                        <input type="email" class="form-control valid" placeholder="Enter Your College Email" name="usernames" id="txtusername" aria-invalid="false">
+                                    </div>
+                                    <div class="form-group">
+                                        <lable>Password</lable>
+                                        <input type="password" class="form-control pw valid" placeholder="Enter Password" name="password">                                        
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </form>
+                                <button type="submit" class="btn" value="submit">REGISTER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
