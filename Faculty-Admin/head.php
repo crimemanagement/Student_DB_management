@@ -6,7 +6,7 @@
     <link rel="icon" href="assets/img/brand/favicon.png" type="image/png">
     <link rel="stylesheet" href="assets/css/style-hl.css" type="text/css">
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
-    
+    <link rel="stylesheet" href="assets/css/chart.css" type="text/css">
     
     <!-- Icons -->
     <link rel="stylesheet" href="assets/vendor/nucleo/css/nucleo.css" type="text/css">
@@ -16,3 +16,9 @@
 
         
 </head>
+
+<body>
+
+<script src="assets/js/Chart.js"></script>
+<script src="assets/js/Chart.min.js"></script>
+</body>

@@ -67,7 +67,7 @@
                     <!-- <label for="exampleInputPassword1">Password</label> -->
                     <input type="password" name="DBPASS" class="form-control" placeholder="Password">
                 </div>
-                <button name="Submit" class="btn btn-primary">Submit</button> 
+                <button name="Submit" class="btn btn-primary">Sign In</button> 
             </form>
         </div>
         <div class="footer-main">

@@ -41,12 +41,16 @@ html{
     scroll-behavior: smooth;
             font-family: 'Maven Pro', sans-serif;
 }  
+.welcome-sec h3 {
+    margin:auto;
+    color:#fff;
+}
 </style>
 </head>
 
 <body>
     <!-- Sidenav -->
-    <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+    <nav class="sidenav navbar navbar-vertical fixed-left navbar-expand-xs navbar-light bg-white" id="sidenav-main">
         <div class="scrollbar-inner">
             <!-- Brand -->
             <div class="sidenav-header  align-items-center">
@@ -77,25 +81,25 @@ html{
                                 <span class="nav-link-text">Announcement</span>
                             </a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">
+                         <li class="nav-item">
+                            <a class="nav-link" href="add-staff.php">
                                 <i class="ni ni-single-02 text-yellow"></i>
-                                <span class="nav-link-text">Profile</span>
+                                <span class="nav-link-text">Add Staff</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="ni ni-bullet-list-67 text-default"></i>
-                                <span class="nav-link-text">Tables</span>
+                            <a class="nav-link" href="add-stud.php">
+                                <i class="ni ni-circle-08 text-pink"></i>
+                                <span class="nav-link-text">Add Student</span>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <i class="ni ni-key-25 text-info"></i>
                                 <span class="nav-link-text">Login</span>
                             </a>
-                        </li>
-                        <li class="nav-item">
+                        </li> -->
+                        <!--<li class="nav-item">
                             <a class="nav-link" href="#">
                                 <i class="ni ni-circle-08 text-pink"></i>
                                 <span class="nav-link-text">Register</span>
@@ -132,9 +136,13 @@ html{
                             </div>
                         </div>
                         <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
+                        <span aria-hidden="true">×</span>
+                        </button>
                     </form>
+                    <div class="welcome-sec">
+                        <h3>Welcome HOD</h3>
+                    </div>
+                    
                     <!-- Navbar links -->
                     <ul class="navbar-nav align-items-center  ml-md-auto ">
                         <li class="nav-item d-xl-none">
