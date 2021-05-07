@@ -46,7 +46,9 @@
             <li><a href="faculty.php"><i class="fas fa-graduation-cap mr-2" style="color: #ff8f16"></i>Faculty</a></li>
             <li><a href="announcement.php"><i class="fas fa-bell mr-2" style="color: #ff8f16"></i>Announcements</a></li>
             <li><a href="Attendance.php"><i class="fas fa-address-card mr-2" style="color: #ff8f16"></i>Attendance</a></li>
-            <li><a href="test.php"><i class="fas fa-address-book mr-2" style="color: #ff8f16"></i>Exam</a></li>
+            <li><a href="test.php"><i class="fas fa-address-book mr-2" style="color: #ff8f16"></i>Exam</a></li><i class=""></i>
+            <li><a href="add-staff.php"><i class="fas fa-user-plus mr-2" style="color: #ff8f16"></i>Add Staff</a></li>
+            <li><a href="add-stud.php"><i class="fas fa-user-graduate mr-2" style="color: #ff8f16"></i>Add Student</a></li>
             <li><a href="logout.php"><i class="fas fa-power-off mr-2" style="color: #ff8f16"></i>Logout</a></li>
         </ul>
         <div class="side-footer">

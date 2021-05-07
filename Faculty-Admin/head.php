@@ -14,11 +14,8 @@
     
     <link rel="stylesheet" href="assets/css/argon.css?v=1.2.0" type="text/css">
 
-        
+    <script src="assets/js/Chart.js"></script>
+    <script src="assets/js/Chart.min.js"></script>
 </head>
 
-<body>
 
-<script src="assets/js/Chart.js"></script>
-<script src="assets/js/Chart.min.js"></script>
-</body>

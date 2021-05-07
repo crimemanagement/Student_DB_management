@@ -20,12 +20,21 @@
                                             <li><a href="#"data-toggle="tooltip" data-placement="bottom" title="Download"><i class="fas fa-download"></i></a></li>
                                         </ul>
                                 </div>
-                        </div>     
+                                </div>
                         <div class="row">
                             <div class="col-md-12 col-lg-4 mb-3">
                                 <div class="user-image">
                                     <img src="../Images/user.png">
+                                    <hr>  
                                 </div>
+                                <div class="user-function-icon">
+                                        <form>
+                                            <label for="myfile">Add Your Profile Pic</label>
+                                            <input type="file" id="myfile" name="myfile">
+                                            
+                                        </form>
+                                        <button class="btn btn-primary">Upload</button>
+                                </div> 
                             </div>
                             <div class="col-md-12 col-lg-8">
                                 <div class="user-details">
